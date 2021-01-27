@@ -1,6 +1,7 @@
 
 import random
 WoordLijst = ["computer", "python", "stoel", "tafel", "jas", "deur", "gordijn", "tapijt", "bloem"]
+#Dit onderdeel pakt met behulp van random een random woord uit de WoordLijst
 GeheimWoord = WoordLijst[random.randrange(0, len(WoordLijst))]
 GeradenLetters = []
 levens = 10
