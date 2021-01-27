@@ -23,7 +23,7 @@ def WihWoord():
         print('_ ' * len(GeheimWoord))
 
 WihWoord()
-#
+#Als true is dan doe de volgende dingen.
 while True:
     letter = input("raad een letter of type het woord ")
     #Dit onderdeel checkt of een letter of woord goed is of al geraden is
